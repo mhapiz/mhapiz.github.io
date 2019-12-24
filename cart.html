@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/libraries/css/bootstrap.min.css" />
+
+  <!-- FONTS GOOGLE -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Rubik:300,400,700&display=swap" rel="stylesheet" />
+
+  <!-- CSSku -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <title>StoreQ</title>
+</head>
+
+<body>
+  <main>
+    <section class="shoppingCart">
+
+      <div class="row cartAndCheckout">
+
+        <div class="col-md-8 cartDetail">
+
+          <div class="cardDetailHeader d-flex justify-content-between">
+            <h2>Your Shopping Cart</h2>
+            <h3>3 Items</h3>
+          </div>
+          <hr>
+
+          <div class="cardDetailTable table-responsive-sm">
+            <table class="table table-striped table-borderless">
+              <tbody>
+                <tr>
+                  <th scope="row" style="width: 40%; ">
+                    <img src="assets/product/redBackpack1.png" class="img-thumbnail" />
+                  </th>
+                  <td style="width: 100%; ">
+                    <div class="productName mt-2">
+                      <p class="lead font-weight-bold"> Backpack Oke </p>
+                    </div>
+                    <div class="qty mt-3" style="width: 120px;">
+                      <form>
+                        <div class="form-row">
+                          <div class="col-12">
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <button class="btn btn-secondary" type="button"
+                                  onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;">
+                                  -
+                                </button>
+                              </div>
+                              <input type="text" class="form-control" placeholder="1" value="1" name="qty" id="sst" />
+                              <div class="input-group-append">
+                                <button class="btn btn-primary" type="button"
+                                  onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;">
+                                  +
+                                </button>
+
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </form>
+                    </div>
+                    <div class="productPrice mt-3">
+                      <p class="lead">Rp. 130.000</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="mt-5">
+                      <a href="#">
+                        <h1>X</h1>
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <th scope="row" style="width: 40%; ">
+                    <img src="assets/product/productmen1.jpeg" class=" img-thumbnail" />
+                  </th>
+                  <td style="width: 100%; ">
+                    <div class="productName mt-2">
+                      <p class="lead font-weight-bold"> Kemeja</p>
+                    </div>
+                    <div class="qty mt-3" style="width: 120px;">
+                      <form>
+                        <div class="form-row">
+                          <div class="col-12">
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <button class="btn btn-secondary" type="button"
+                                  onclick="var result = document.getElementById('sst2'); var sst2 = result.value; if( !isNaN( sst2 ) &amp;&amp; sst2 > 0 ) result.value--;return false;">
+                                  -
+                                </button>
+                              </div>
+                              <input type="text" class="form-control" placeholder="1" value="1" name="qty" id="sst2" />
+                              <div class="input-group-append">
+                                <button class="btn btn-primary" type="button"
+                                  onclick="var result = document.getElementById('sst2'); var sst2 = result.value; if( !isNaN( sst2 )) result.value++;return false;">
+                                  +
+                                </button>
+
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </form>
+                    </div>
+                    <div class="productPrice mt-3">
+                      <p class="lead">Rp. 930.000</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="mt-5">
+                      <a href="#">
+                        <h1>X</h1>
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+
+
+
+                <tr>
+                  <th scope="row" style="width: 40%; ">
+                    <img src="assets/product/poloshirt.png" class=" img-thumbnail" />
+                  </th>
+                  <td style="width: 100%; ">
+                    <div class="productName mt-2">
+                      <p class="lead font-weight-bold"> Polo Shirt</p>
+                    </div>
+                    <div class="qty mt-3" style="width: 120px;">
+                      <form>
+                        <div class="form-row">
+                          <div class="col-12">
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <button class="btn btn-secondary" type="button"
+                                  onclick="var result = document.getElementById('sst3'); var sst3 = result.value; if( !isNaN( sst3 ) &amp;&amp; sst3 > 0 ) result.value--;return false;">
+                                  -
+                                </button>
+                              </div>
+                              <input type="text" class="form-control" placeholder="1" value="1" name="qty" id="sst3" />
+                              <div class="input-group-append">
+                                <button class="btn btn-primary" type="button"
+                                  onclick="var result = document.getElementById('sst3'); var sst3 = result.value; if( !isNaN( sst3 )) result.value++;return false;">
+                                  +
+                                </button>
+
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
+                      </form>
+                    </div>
+                    <div class="productPrice mt-3">
+                      <p class="lead">Rp. 900.000</p>
+                    </div>
+                  </td>
+                  <td>
+                    <div class="mt-5">
+                      <a href="#">
+                        <h1>X</h1>
+                      </a>
+                    </div>
+                  </td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+
+          <div class="cardDetailFooter d-flex justify-content-between">
+            <a href="detail.html  ">
+              <img src="assets/icon/leftArrow.png" alt="Back" width="20"> To Shopping
+            </a>
+
+            <div class="total d-flex justify-content-start" style="width: 200px;">
+              <h6>Total : &nbsp;&nbsp;&nbsp;</h6>
+              <h6>Rp. 1.960.000</h6>
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+
+        <div class="col-md-4 checkout">
+          <h4>Shipping</h4>
+          <hr>
+          <form action="#" class="form-row">
+
+
+            <div class="col-6">
+              <div class="form-group">
+                <label for="name">Nama </label>
+                <input type="text" class="form-control" id="name" placeholder="Namamu">
+              </div>
+            </div>
+
+
+            <div class="col-6">
+              <div class="form-group">
+                <label for="email">Alamat Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Emailmu">
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="form-group">
+                <label for="noTelpon">No. Telpon </label>
+                <input type="text" class="form-control" id="noTelpon" placeholder="+62">
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="form-group">
+                <label for="provinces">Provinsi</label>
+                <select class="custom-select">
+                  <option selected>Pilih Provinsi</option>
+                  <option value="1">Kalimantan Selatan</option>
+                  <option value="2">Kalimantan Utara</option>
+                  <option value="3">Kalimantan Tengah</option>
+                </select>
+              </div>
+            </div>
+
+
+            <div class="col-6">
+              <div class="form-group">
+                <label for="cities">Kabupaten / Kota</label>
+                <select class="custom-select">
+                  <option selected>Pilih Kabupaten/Kota</option>
+                  <option value="1">Kab. Banjar</option>
+                  <option value="2">Kab. Barito Kuala</option>
+                  <option value="3">Banjarbaru</option>
+                </select>
+              </div>
+            </div>
+
+
+            <div class="col-6">
+              <div class="form-group">
+                <label for="cities">Kecamatan</label>
+                <select class="custom-select">
+                  <option selected>Pilih Kecamatan</option>
+                  <option value="1">Sekumpul</option>
+                  <option value="2">Martapura Kota</option>
+                  <option value="3">Martapura Barat</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <div class="form-group">
+                <label for="address">Alamat Lengkap</label>
+                <textarea class="form-control" rows="2" id="address"></textarea>
+              </div>
+            </div>
+
+            <button class="btn tombolBiru" type="submit">Proceed</button>
+
+          </form>
+        </div>
+
+
+      </div>
+    </section>
+  </main>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="assets/libraries/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/libraries/js/popper.min.js"></script>
+  <script src="assets/libraries/js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+
+  </script>
+</body>
+
+</html>

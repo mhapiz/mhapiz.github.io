@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="assets/libraries/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="assets/libraries/css/all.css">
+
+  <!-- FONTS GOOGLE -->
+  <link href="https://fonts.googleapis.com/css?family=Courgette|Rubik:300,400,700&display=swap" rel="stylesheet">
+
+  <!-- CSSku -->
+  <link rel="stylesheet" href="assets/css/main.css" />
+
+  <title>Men Zone</title>
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top ">
+    <div class="container">
+      <!-- Just an image -->
+      <a class="navbar-brand" href="#">
+        <img src="assets/icon/logoNotBlack.png" height="40" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-item nav-link " href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link active" href="cat.html">Men Zone</a>
+          <a class="nav-item nav-link mr-5" href="#">Women Zone</a>
+
+          <div class="search nav-item">
+            <form class="form-inline">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" />
+              <button class="btn tombol text-center" type="submit">
+                <img src="assets/icon/search.png" alt="Search" height="20" />
+              </button>
+            </form>
+          </div>
+
+          <a class="nav-item nav-link ml-3" href="#">
+            <img src="assets/icon/cart.png" alt="cart" height="30" />
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR -->
+
+  <header>
+    <!-- JUMBOTRON -->
+    <div class="jumbotron jumbotronCat jumbotron-fluid">
+      <div class="container">
+        <div id="carouselExampleInterval" class="carousel carouselCat slide" data-ride="carousel">
+          <div class="carousel-inner" style="height: 450px;">
+            <div class="carousel-item active" data-interval="2000">
+              <div class="row">
+                <div class="col-md-4 carouselCatDesc">
+                  <h1>SEPATU BARU YEAY</h1>
+                </div>
+                <div class="col-md-8">
+                  <div class="carouselCatPic text-center">
+                    <img src="assets/product/vans.jpg" class="" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <div class="row">
+                <div class="col-md-4 carouselCatDesc">
+                  <h3>SEPATU Paling Payu</h3>
+                </div>
+                <div class="col-md-8">
+                  <div class="carouselCatPic text-center">
+                    <img src="assets/product/nike.jpg" class="" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item" data-interval="2000">
+              <div class="row">
+                <div class="col-md-4 carouselCatDesc">
+                  <h1>SEPATU BARU YEAY</h1>
+                </div>
+                <div class="col-md-8">
+                  <div class="carouselCatPic text-center">
+                    <img src="assets/product/adidas.jpg" class="" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+
+
+        </div>
+      </div>
+    </div>
+    <!-- JUMBOTRON -->
+  </header>
+
+  <main>
+    <section class="allProduct">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+
+            <div class="tabProduct">
+              <nav>
+                <div class="nav nav-tabs d-flex justify-content-center" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-men-all-tab" data-toggle="tab" href="#nav-men-all"
+                    role="tab" aria-controls="nav-men-all" aria-selected="true">All</a>
+                  <a class="nav-item nav-link " id="nav-men-bag-tab" data-toggle="tab" href="#nav-men-bag" role="tab"
+                    aria-controls="nav-men-bag" aria-selected="false">Bag</a>
+                  <a class="nav-item nav-link " id="nav-men-shirt-tab" data-toggle="tab" href="#nav-men-shirt"
+                    role="tab" aria-controls="nav-men-shirt" aria-selected="false">Shirt</a>
+                  <a class="nav-item nav-link " id="nav-men-shoes-tab" data-toggle="tab" href="#nav-men-shoes"
+                    role="tab" aria-controls="nav-men-shoes" aria-selected="false">Shoes</a>
+
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show mt-5 active" id="nav-men-all" role="tabpanel"
+                  aria-labelledby="nav-men-all-tab">
+                  <!-- PRODUCTX -->
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/redBackpack1.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Backpack Oke</p>
+                        <p class="productPrice text-center">Rp. 130.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/militaryBackpack1.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Tas Aja</p>
+                        <p class="productPrice text-center">Rp. 250.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/militaryBackpack1.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Tas Mantap</p>
+                        <p class="productPrice text-center">Rp. 1.300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/poloshirt.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Polo Shirt</p>
+                        <p class="productPrice text-center">Rp. 300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/poloshirt2.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Polo Shirt Jua</p>
+                        <p class="productPrice text-center">Rp. 300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="detail.html">
+                          <div class="productPic">
+                            <img src="assets/product/productmen1.jpeg" />
+                          </div>
+                        </a>
+                        <p class="productName text-center"> Shirt Okea</p>
+                        <p class="productPrice text-center">Rp. 300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- PRODUCTX -->
+                </div>
+
+
+                <div class="tab-pane fade mt-5" id="nav-men-bag" role="tabpanel" aria-labelledby="nav-men-bag-tab">
+                  <!-- PRODUCTX -->
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/redBackpack1.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Backpack Oke</p>
+                        <p class="productPrice text-center">Rp. 130.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/militaryBackpack1.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Tas Aja</p>
+                        <p class="productPrice text-center">Rp. 250.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/militaryBackpack1.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Tas Mantap</p>
+                        <p class="productPrice text-center">Rp. 1.300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- PRODUCTX -->
+                </div>
+
+
+                <div class="tab-pane fade mt-5" id="nav-men-shirt" role="tabpanel" aria-labelledby="nav-men-shirt-tab">
+                  <!-- PRODUCTX -->
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/poloshirt.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Polo Shirt</p>
+                        <p class="productPrice text-center">Rp. 300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/poloshirt2.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Polo Shirt Jua</p>
+                        <p class="productPrice text-center">Rp. 300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/poloshirt2.png" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Polo Shirt Jua</p>
+                        <p class="productPrice text-center">Rp. 300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- PRODUCTX -->
+                </div>
+
+                <div class="tab-pane fade mt-5" id="nav-men-shoes" role="tabpanel" aria-labelledby="nav-men-shoes-tab">
+                  <!-- PRODUCTX -->
+                  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/nike.jpg" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Nike Mahal</p>
+                        <p class="productPrice text-center">Rp. 300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/adidas.jpg" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Adidas juga Mahal</p>
+                        <p class="productPrice text-center">Rp. 300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col mb-4">
+                      <div class="productCard">
+                        <a href="#">
+                          <div class="productPic">
+                            <img src="assets/product/vans.jpg" />
+                          </div>
+                        </a>
+                        <p class="productName text-center">Vans Bagus tapi Mahal</p>
+                        <p class="productPrice text-center">Rp. 300.000</p>
+                        <div class="hover">
+                          <a href="#">
+                            <i class="fas fa-cart-plus"></i>
+                          </a>
+                          <a href="#">
+                            <i class="fas fa-eye"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+                  <!-- PRODUCTX -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container-fluid">
+      <div class="row justify-content-between">
+        <div class="col-md-5 text-left pl-5 pt-4 footerKiri">
+          <img src="assets/icon/logoNotBlack.png" width="150">
+
+          <div class="sosmedContainer mt-2">
+            <a href="#" class="sosmedRounded">
+              <i class="fab fa-twitter "></i>
+            </a>
+
+            <a href="#" class="sosmedRounded">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+
+            <a href="#" class="sosmedRounded">
+              <i class="fab fa-instagram"></i>
+            </a>
+          </div>
+
+          <div class="address mt-2">
+            <h6>42 Station Rd, Minster</h6>
+            <h6>Ramsgate CT12 4BZ </h6>
+            <h6>United Kingdom</h6>
+          </div>
+
+        </div>
+
+        <div class="col-md-5 text-right pr-5 pt-4 footerKanan">
+          <h4>PAyment Support</h4>
+          <div class="payment">
+            <img src="assets/icon/indomaret.png" alt="">
+            <img src="assets/icon/alfamart.png" alt="">
+            <img src="assets/icon/paypal.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+  <script src="assets/libraries/js/jquery-3.4.1.min.js"></script>
+  <script src="assets/libraries/js/popper.min.js"></script>
+  <script src="assets/libraries/js/bootstrap.min.js"></script>
+</body>
+
+</html>
