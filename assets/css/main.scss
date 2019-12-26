@@ -646,6 +646,9 @@ main {
           width: 100%;
           height: 70px;
           // border-radius: ;
+          display: flex;
+          align-items: center;
+          justify-content: center;
         }
       }
     }
@@ -704,3 +707,51 @@ main {
 }
 
 // SHOPPING CART PAGE----------------------------------------------------------------
+
+// SUCCESS PAGE----------------------------------------------------------------
+
+
+section.success {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    text-align: center;
+    font-size: 1.7rem;
+
+    i {
+      font-size: 2.8rem;
+    }
+  }
+
+  img {
+    width: 300px;
+  }
+}
+
+
+@media (min-width: 576px) {
+  section.success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      text-align: center;
+      font-size: 2.7rem;
+
+      i {
+        font-size: 4rem;
+      }
+    }
+
+    img {
+      width: 600px;
+    }
+  }
+}
+
+// SUCCESS PAGE----------------------------------------------------------------

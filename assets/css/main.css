@@ -631,6 +631,15 @@ main section.shoppingCart .cartAndCheckout .checkout {
 main section.shoppingCart .cartAndCheckout .checkout .tombolBiru {
   width: 100%;
   height: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 @media (min-width: 576px) {
@@ -672,6 +681,63 @@ main section.shoppingCart .cartAndCheckout .checkout .tombolBiru {
   main section.shoppingCart .cartAndCheckout .checkout .tombolBiru {
     width: 100%;
     height: 70px;
+  }
+}
+
+section.success {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.success h1 {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+section.success h1 i {
+  font-size: 2.8rem;
+}
+
+section.success img {
+  width: 300px;
+}
+
+@media (min-width: 576px) {
+  section.success {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section.success h1 {
+    text-align: center;
+    font-size: 2.7rem;
+  }
+  section.success h1 i {
+    font-size: 4rem;
+  }
+  section.success img {
+    width: 600px;
   }
 }
 /*# sourceMappingURL=main.css.map */
